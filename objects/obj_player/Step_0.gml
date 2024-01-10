@@ -1,11 +1,21 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Basic Movement
+// Move the player 1 pixel in whichever direction they press.
 
 if keyboard_check(vk_left)
 {
-    x = x - 2;
+    x = x - 1;
 }
-else if keyboard_check(vk_right)
+if keyboard_check(vk_right)
 {
-    x = x + 2;
+    x = x + 1;
+}
+if keyboard_check(vk_up)
+{
+	if (y > 253) {
+		y = y - 1
+	}
+}
+if keyboard_check(vk_down)
+{
+	y = y + 1
 }
