@@ -1,0 +1,23 @@
+Game
+	Title Screen
+	Score
+	Leaderboard
+
+Player
+	Single Fire Spacebar
+	Hit Detection
+	Lives
+
+Enemy
+	Animation
+	Spawn/Despawn
+	Bullets
+	Hit Detection
+
+FUTURE
+	Sounds (accapella?)
+	Scrolling background (ground + sky)
+	Different kinds of enemies
+		More health/damage/speed, etc.
+		Ground enemies
+	Upgrades?
