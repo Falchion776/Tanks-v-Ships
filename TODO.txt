@@ -4,19 +4,19 @@ Game
 	Leaderboard
 
 Player
-	Single Fire Spacebar
-	Hit Detection
 	Lives
 
 Enemy
-	Animation
+	Animation/Sprite Rework
 	Spawn/Despawn
 	Bullets
-	Hit Detection
 
 FUTURE
 	Sounds (accapella?)
 	Scrolling background (ground + sky)
+	Charge Attack?
+		Bigger + More Damage
+		Only with varied types of enemies
 	Different kinds of enemies
 		More health/damage/speed, etc.
 		Ground enemies

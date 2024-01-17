@@ -12,14 +12,14 @@ if keyboard_check(vk_right) || keyboard_check(ord("D"))
 if keyboard_check(vk_up) || keyboard_check(ord("W"))
 {
 	if (y > 253) {
-		y = y - 1
+		y = y - 1;
 	}
 }
 if keyboard_check(vk_down) || keyboard_check(ord("S"))
 {
-	y = y + 1
+	y = y + 1;
 }
-if keyboard_check(vk_space) || mouse_check_button_pressed(mb_left)
+if keyboard_check_pressed(vk_space) || mouse_check_button_pressed(mb_left)
 {
-        instance_create_layer(x+7, y, "Instances", obj_player_bullet)
+        instance_create_layer(x+7, y, "Instances", obj_player_bullet);
 }
